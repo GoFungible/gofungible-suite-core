@@ -3,7 +3,7 @@ pragma solidity >=0.8.30;
 
 import "./INodeToken.sol";
 import "../extensions/IEntryFacet.sol";
-import "../../network/relayer/IRelayer.sol";
+import "../../network/extensions/relayer/IRelayer.sol";
 import "../storage/LibDiamondStorage.sol";
 
 contract NodeToken is INodeToken {
